@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---------------------------Css link----------------------------->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!---------------------------Container----------------------------->
+    <main class="container">
+        <header class="header">
+            <h1>Nova conta</h1>
+        </header><!--end header-->
+        <form action="#" class="form" id="form">
+            <div class="form-content">
+                <label for="username">Nome de usuário</label>
+                <input 
+                type="text"
+                class="username"
+                id="username"
+                placeholder="Nome de usuário"
+                autocomplete="off">
+                <small class="error-message"></small>
+            </div><!--end form content-->
+            <div class="form-content">
+                <label for="email">E-mail</label>
+                <input 
+                type="email"
+                class="email"
+                id="email"
+                placeholder="E-mail"
+                autocomplete="off">
+                <small class="error-message"></small>
+            </div><!--end form content-->
+            <div class="form-content">
+                <label for="password">Senha</label>
+                <input 
+                type="password"
+                class="password"
+                id="password"
+                placeholder="Senha"
+                autocomplete="off">
+                <small class="error-message"></small>
+            </div><!--end form content-->
+            <div class="form-content">
+                <label for="password-confirmation">Confirmação de senha</label>
+                <input 
+                type="password"
+                class="password-confirmation"
+                id="password-confirmation"
+                placeholder="Confirmação de senha"
+                autocomplete="off">
+                <small class="error-message"></small>
+            </div><!--end form content-->
+            <button type="submit">Cadastrar</button>
+        </form><!--end form-->
+    </main><!--end container-->
+    <!---------------------------JavaScript link----------------------------->
+    <script src="js/script.js"></script>
+</body>
+</html>
